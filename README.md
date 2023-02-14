@@ -36,3 +36,12 @@
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
 ```
+"robots": 검색 엔진이 페이지를 어떻게 색인할지 지정합니다.
+"revisit-after": 검색 엔진이 페이지를 재색인할 주기를 지정합니다.
+"googlebot": Google 검색 엔진이 페이지를 어떻게 색인할지 지정합니다.
+"language": 문서의 언어를 지정합니다.
+```
+<meta name="revisit-after" content="7 days">
+<meta name="googlebot" content="index,follow">
+<meta http-equiv="content-language" content="en">
+```
